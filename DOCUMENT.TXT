@@ -1,4 +1,4 @@
-1. 	BASIS TAALELEMENTEN
+1. 	Base des éléments de langage
 
 1.1 symboles de base
 
@@ -7,35 +7,35 @@ symboles spéciaux peuvent être classés :
 
 
 
-Letters: A tot Z, a tot z en _ (onderstreping)
+Lettres : A à Z, a à z et _ ( trait de soulignement )
 
-Cijfers: 0 1 2 3 4 5 6 7 8 9
+Chiffres : 0 1 2 3 4 5 6 7 8 9
 
-Speciale symbolen: + - * / = ^ < > [ ] ( ) { } . , : ; ' # $
-
-
-
-Tussen hoofd- en kleine letters wordt geen onderscheid gemaakt. Bepaalde operatoren en 
-begrenzers worden uit twee speciale symbolen opgebouwd:
+Les symboles spéciaux : + - * / = ^ <> [ ] ( ) {} . , : ; "# $
 
 
 
-Toewijzingsoperator: :=
+Pas de distinction entre majuscules et minuscules. 
+Certains opérateurs et limiteurs sont constitués de deux symboles spéciaux :
 
-Relationele operatoren: <> <= >=
 
-Deelbereik begrenzers: ..
 
-Haakjes: ( ) kunnen in plaats van [ ] gebruikt worden.
+Opérateur d'affectation : 	: =
 
-Commentaar: (* *) kunnen in plaats van { } gebruikt worden.
+Les opérateurs relationnels : 	< > <=> =
 
-1.2 Gereserveerde woorden
+Séparateurs subrange : 		..
 
-Gereserveerde woorden zijn een vastliggend onderdeel van Turbo Pascal en kunnen niet 
-opnieuw gedefinieerd worden. Ze kunnen niet door de gebruiker als gedefinieerde namen 
-worden gebruikt. De gereserveerde woorden zijn:
+Entre parenthèses : ( ) peuvent être utilisés à la place de [ ] .
 
+Commentaires: (* *) peuvent être utilisés à la place de {} .
+
+1.2 Mots réservés
+
+Mots réservés sont une partie réservée de Turbo Pascal et ne peuvent pas
+modifiés par l'utilisateur.
+
+Les mots réservés sont :
 
 
 *absolute  *external   nil        *shl
@@ -60,17 +60,17 @@ worden gebruikt. De gereserveerde woorden zijn:
 
  end        mod        set        *xor
 
-Tabel 1 - 1
-In de gehele handleiding zijn de gereserveerde woorden vet gedrukt. De sterretjes geven 
-gereserveerde woorden aan die in de Pascal standaard niet gedefinieerd zijn.
+Tableau 1.1
+Tout au long du manuel, les mots réservés sont en gras. Les astérisques indiquent
+mots réservés qui ne sont pas définis dans le Pascal standard.
 
-1.3 Standaard namen
+1.3 noms standard
 
-Turbo Pascal heeft de volgende standaard namen voor voorgedefinieerde typen, 
-constanten, variabelen, procedures en functies. Al deze namen kunnen opnieuw 
-gedefinieerd worden, maar dat betekend, dat hun mogelijkheden worden beperkt. Zulke 
-veranderingen kunnen gemakkelijk tot verwarring leiden. De volgende standaard namen 
-kunnen daarom het best in hun oorspronkelijke definitie worden gelaten:
+Turbo Pascal a les noms suivants par défaut pour les types prédéfinis ,
+constantes, variables , procédures et fonctions . Tous ces noms peuvent à nouveau
+être définis , mais cela signifie que leurs options sont limitées. De tels
+changements peuvent facilement conduire à la confusion . Pour Les noms par défaut suivants, 
+il est donc préférable de les laisser dans leur définition originale :
 
 
 
@@ -128,30 +128,29 @@ kunnen daarom het best in hun oorspronkelijke definitie worden gelaten:
 
  DelLine    KeyPressed
 
-Tabel 1 - 2
-In de gehele handleiding worden de standaard namen, zoals ook alle andere namen (zie 
-hoofdstuk 3.1 "Namen") met hoofd- en kleine letters geschreven. In de tekst worden ze 
-cursief gedrukt.
+Tableau 2.1
+Tout au long du manuel, les noms par défaut , comme tous les autres noms (voir
+Section 3.1 «Noms ») sont écrits avec des lettres majuscules et minuscules . 
+Le texte est en italique.
 
-1.4 Begrenzers
+1.4 Séparateurs
 
-Taalelementen moeten minstens door één van de volgende begrenzers gescheiden 
-worden: spatie, tab, nieuwe regel of commentaar.
+Les éléments de langage doivent être séparés par au moins un des séparateurs suivants:
+espace, tabulation , nouvelle ligne ou un commentaire.
 
-1.5 Programma regels
+1.5 Les règles du programme
 
-Programma regels mogen maximaal 127 tekens lang zijn, meer tekens worden door de 
-compiler genegeerd. In eerdere TURBO versies liet de editor ook maar 127 tekens op één 
-regel toe. Nu er gebruik gemaakt moet worden van een externe editor zou de source 
-langere regels kunnen bevatten. In zo'n geval worden de tekens na kolom 127 genegeerd, 
-let u er dus op dat de regels korter blijven.
+Lignes de programmer jusqu'à 127 caractères , les caractères au-delà sont ignorés
+du compilateur. Dans les versions précédentes , l'éditeur de TURBO autorisait également que 127 caractères sur une
+ligne. Maintenant, avec les éditeurs externes la source pourrait contenir
+des lignes plus longues. Dans ce cas, les caractères sont ignorés après la colonne 127 ,
+S'il vous plaît, prenez soin de faire en sorte de respecter cette règle de lignes courtes.
 
-2. 	SCALAIRE STANDAARD TYPEN
+2. TYPES SCALAIRES STANDARD
 
-Een data type definieert de aard van de waarden, die een variabele kan aannemen. Iedere 
-variabele in een programma moet één data type hebben. Hoewel data typen in Turbo 
-Pascal zeer complex kunnen zijn, worden ze allemaal uit eenvoudige (ongestructureerde) 
-typen opgebouwd.
+Un type de données définit le type de valeurs que peut prendre une variable. chaque
+variable dans un programme doit avoir un type de données . Bien que les types de données dans Turbo
+Pascal peut être très complexe , ils sont tous construits de manière la simple.
 
 
 
