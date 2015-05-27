@@ -1,9 +1,9 @@
 1. 	BASIS TAALELEMENTEN
 
-1.1 Basis symbolen
+1.1 symboles de base
 
-De wezenlijke vocabulaire van Turbo Pascal bestaat uit symbolen, die in letters, cijfers en 
-speciale symbolen ingedeeld kunnen worden:
+Le vocabulaire essentiel de Turbo Pascal compose des symboles, des lettres, des chiffres et
+symboles spéciaux peuvent être classés :
 
 
 
